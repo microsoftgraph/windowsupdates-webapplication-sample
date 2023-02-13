@@ -1,0 +1,14 @@
+.va-content {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 80px;
+}
+
+.text-content {
+  align-self: center;
+}

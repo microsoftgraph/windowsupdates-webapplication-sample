@@ -1,0 +1,28 @@
+/* Tabs formatting */
+.nav-link{
+    color: #212529;
+}
+
+.nav-tabs{
+    border-bottom: 1px solid #212529;
+}
+
+.nav-link:hover{
+    border-color: #212529;
+    color: #212529;
+}
+
+.nav-link .active{
+    background-color: #212529;
+    border-color: #212529 #212529 #fff;
+    color: white;
+}
+
+.nav-tabs .nav-link.active{
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+
+
