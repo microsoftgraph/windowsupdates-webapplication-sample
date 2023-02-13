@@ -1,0 +1,6 @@
+/* TODO: We can add this in main css file so that It can applicaple to whole website */
+/* override react-bootstrap radio button color to black */
+.form-check-input:checked {
+    background-color: black;
+    border-color: black;
+}

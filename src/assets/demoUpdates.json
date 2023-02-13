@@ -1,0 +1,124 @@
+{
+    "@odata.context": "https://deploymentscheduler.microsoft.com/v3/$metadata#Collection(microsoft.wufb.deployments.applicableUpdateDriver)",
+    "value": [
+        {
+            "applicableDeviceCount": 7,
+            "installedDeviceCount": 0,
+            "recommendedBy": ["Microsoft"],
+            "approvalDate": "",
+            "suspensionDate": "",
+            "catalogEntry": {
+                "catalogEntryId": "823cf7ee72d9b30f15d0b43fc258299baa7367eebfb2f4d3245eadd53fbad484",
+                "displayName": "Hewlett-Packard - USB - 6/1/2018 12:00:00 AM - 46.2.2631.18152",
+                "releaseDate": "2018-06-01T00:00:00Z",
+                "description": "Hewlett-Packard USB  driver update released in  June 2018",
+                "driverClass": "OtherHardware",
+                "provider": "Hewlett-Packard",
+                "manufacturer": "Hewlett-Packard",
+                "version": "12947857691068136"
+            }
+        },
+        {
+            "applicableDeviceCount": 5,
+            "installedDeviceCount": 0,
+            "recommendedBy": [],
+            "approvalDate": "",
+            "suspensionDate": "",
+            "catalogEntry": {
+                "catalogEntryId": "8dc320f0e2b4bda62db14f638a2f03b2e1c85d6e72330c4c8ec455f7e620d692",
+                "displayName": "Surface - System - 2/23/2018 12:00:00 AM - 3.16.136.0",
+                "releaseDate": "2018-02-23T00:00:00Z",
+                "description": "Surface System  driver update released in  February 2018",
+                "driverClass": "OtherHardware",
+                "provider": "Surface",
+                "manufacturer": "Surface",
+                "version": "844493658521600"
+            }
+        },
+        {
+            "applicableDeviceCount": 7,
+            "installedDeviceCount": 0,
+            "recommendedBy": ["Microsoft"],
+            "approvalDate": "",
+            "suspensionDate": "",
+            "catalogEntry": {
+                "catalogEntryId": "546f43d291c7b42a097555c840eeb53abcf48f6e2569c6e5ff13dd29f2c280f4",
+                "displayName": "Intel - System - 4/27/2018 12:00:00 AM - 8.4.11000.6436",
+                "releaseDate": "2018-04-27T00:00:00Z",
+                "description": "Intel System  driver update released in  April 2018",
+                "driverClass": null,
+                "provider": "Intel",
+                "manufacturer": "Intel",
+                "version": "2251817714456868"
+            }
+        },
+        {
+            "applicableDeviceCount": 2,
+            "installedDeviceCount": 0,
+            "recommendedBy": ["Microsoft"],
+            "approvalDate": "",
+            "suspensionDate": "",
+            "catalogEntry": {
+                "catalogEntryId": "f7ddae2a792c0d90eacd0a23bfc66aa165b3b41c358a741d3c9f82b767fb8baf",
+                "displayName": "Surface - SCSIAdapter - 3/29/2017 12:00:00 AM - 11.0.4.0",
+                "releaseDate": "2017-03-29T00:00:00Z",
+                "description": "Surface SCSIAdapter  driver update released in  March 2017",
+                "driverClass": "OtherHardware",
+                "provider": "Surface",
+                "manufacturer": "Surface",
+                "version": "3096224744079360"
+            }
+        },
+        {
+            "applicableDeviceCount": 1,
+            "installedDeviceCount": 0,
+            "recommendedBy": ["Microsoft"],
+            "approvalDate": "",
+            "suspensionDate": "",
+            "catalogEntry": {
+                "catalogEntryId": "35d74912c7e9cda960a595e66d4b61f33b88337cef47d2f492b488db7deb535a",
+                "displayName": "INTEL - System - 7/18/1968 12:00:00 AM - 10.1.5.1",
+                "releaseDate": "1968-07-18T00:00:00Z",
+                "description": "INTEL System  driver update released in  July 1968",
+                "driverClass": "OtherHardware",
+                "provider": "INTEL",
+                "manufacturer": "INTEL",
+                "version": "2814754062401537"
+            }
+        },
+        {
+            "applicableDeviceCount": 3,
+            "installedDeviceCount": 0,
+            "recommendedBy": ["Microsoft"],
+            "approvalDate": "",
+            "suspensionDate": "",
+            "catalogEntry": {
+                "catalogEntryId": "4beaba5132700cf3da1f906c71c00c01b59f9b5483a34bc4483b45cb57eeb773",
+                "displayName": "Surface - System - 7/26/2018 12:00:00 AM - 3.21.139.0",
+                "releaseDate": "2018-07-26T00:00:00Z",
+                "description": "Surface System  driver update released in  July 2018",
+                "driverClass": null,
+                "provider": "Surface",
+                "manufacturer": "Surface",
+                "version": "844515133554688"
+            }
+        },
+        {
+            "applicableDeviceCount": 1,
+            "installedDeviceCount": 0,
+            "recommendedBy": [],
+            "approvalDate": "",
+            "suspensionDate": "",
+            "catalogEntry": {
+                "catalogEntryId": "86b9c4d3214ede99ab727089d258dbe673209273686d64b3e256eedf360e25b5",
+                "displayName": "Intel Corporation - HIDClass - 11/10/2017 12:00:00 AM - 1.2.0.100",
+                "releaseDate": "2017-11-10T00:00:00Z",
+                "description": "Intel Corporation HIDClass  driver update released in  November 2017",
+                "driverClass": "OtherHardware",
+                "provider": "Intel Corporation",
+                "manufacturer": "Intel Corporation",
+                "version": "281483566645348"
+            }
+        }
+    ]
+}
