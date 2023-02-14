@@ -275,3 +275,9 @@ While a deployment is in progress, you can prevent the content from being offere
 ### Deleting devices from a Policy and Unenrolling devices from driver management
 
 Select Edit from the Policies page to make changes to the devices.  Selecting Delete next to a Device ID will remove that device from the policy, the deployment audience associated to that policy, and any deployments created for that device in the policy.  This will not impact any other policy the device is a member of.  Selecting Remove will unenroll the device from driver management in the service.  The device is no longer managed by the deployment service and may start receiving other updates from Windows Update based on its policy configuration. The unenrolled device is removed from **all** audiences and deployments that contains driver content. The device remains registered with the service and is still enrolled and receiving content for other update categories (if applicable).
+
+
+
+### Trademarks
+	
+Trademarks This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow [Microsoft’s Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general). Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship. Any use of third-party trademarks or logos are subject to those third-party’s policies.
