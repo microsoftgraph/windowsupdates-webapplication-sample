@@ -261,7 +261,7 @@ Select a driver to approve and then select Approve.  In the Approval Settings mo
 
 ![image](https://user-images.githubusercontent.com/103447364/215849596-b9e05cfe-693d-4f40-9f8f-8a8fe2c57924.png)
 
-Drivers that have been approved will show the Approval Start Date in the Updates page.  For easy navigation back to the Policies page, select the Back button.
+Drivers that have been approved will show the Approval Start Date in the Updates page for as long as there are devices in the policy that the driver is applicable for. Once all applicable devices have received the driver update, the approval will no longer be visible in either Updates tab.  A record of all content approvals is kept in the complianceChanges document for the driver policy.  For easy navigation back to the Policies page, select the back button.
 
 ![image](https://user-images.githubusercontent.com/103447364/215854876-686dc673-80e1-4e1d-9c71-2b8a14067841.png)
 
