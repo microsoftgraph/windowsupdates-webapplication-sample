@@ -229,7 +229,15 @@ At the top of the modal, the Policy's friendly name is displayed and right below
 
 When devices are added to a driver policy for the first time, the web application automatically calls the enrollment API to enroll that device in the service for driver management.  We have documented [explicit enrollment](https://learn.microsoft.com/en-us/graph/windowsupdates-manage-driver-update#step-1:enroll-devices-in-driver-management) but the web application performs this implicitly today.  We recommend using explicit enrollment for implementing enrollment capabilities with our API.
 
-- Batch Add: A CSV file with up to 200 devices (formatting requirements are documented in the about section) can be used by selecting Choose File > select the CSV file > select Add.  Create multiple files if more than 200 devices need to be added.  A refresh is required after large batch device adds to accurately portray devices and device counts.
+- Batch Add: A CSV file (formatting requirements are documented in the about section of the web application for easy reference) with up to 200 devices can be used by selecting Choose File > select the CSV file > select Add.  Create multiple files if more than 200 devices need to be added.  A refresh is required after large batch device adds to accurately portray devices and device counts.
+
+  **Formatting Requirements:**
+  - All fields need to be included: @odata.type, id, #microsoft.graph.windowsUpdates.azureADDevice
+  - Add Azure AD device Ids - all values are case sensitive
+  - Save file as CSV - only CSV files can be uploaded for batch changes
+  - Limit each CSV to less than 200 devices - create multiple files if needed
+	![image](https://user-images.githubusercontent.com/103447364/219080543-975d89a1-6aa1-41c3-bc0e-5fab561c9e25.png)
+
 - Single Device: Individual devices can be added one at a time by entering the Azure Active Directory device Id and selecting Add.
 
 ![image](https://user-images.githubusercontent.com/103447364/215831431-4cfdfed4-c406-4f9f-b2bf-09ce50248b73.png)
