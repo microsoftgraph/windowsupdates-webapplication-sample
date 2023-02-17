@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const DefinePlugin = require("webpack").DefinePlugin;
 const path = require("path");
 
 module.exports = {
@@ -43,5 +44,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "public", "index.html"),
     }),
+    new DefinePlugin({
+      'process.env.CLIENT_ID': JSON.stringify(process.env.CLIENT_ID),
+      'process.env.TENANT_ID': JSON.stringify(process.env.TENANT_ID),
+    })
   ],
 };
