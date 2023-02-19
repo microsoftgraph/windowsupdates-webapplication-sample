@@ -47,6 +47,7 @@ module.exports = {
     new DefinePlugin({
       'process.env.CLIENT_ID': JSON.stringify(process.env.CLIENT_ID),
       'process.env.TENANT_ID': JSON.stringify(process.env.TENANT_ID),
+      'process.env.REDIRECT_URI': JSON.stringify(process.env.REDIRECT_URI),
     })
   ],
 };
