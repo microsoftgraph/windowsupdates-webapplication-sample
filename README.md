@@ -236,7 +236,10 @@ When devices are added to a driver policy for the first time, the web applicatio
   - Add Azure AD device Ids - all values are case sensitive
   - Save file as CSV - only CSV files can be uploaded for batch changes
   - Limit each CSV to less than 200 devices - create multiple files if needed
-	![image](https://user-images.githubusercontent.com/103447364/219080543-975d89a1-6aa1-41c3-bc0e-5fab561c9e25.png)
+> **Note**
+>  **Adding or removing up to 200 devices at a time with batch is an illustration of how to utilize the API and not a limitation**
+
+![image](https://user-images.githubusercontent.com/103447364/219080543-975d89a1-6aa1-41c3-bc0e-5fab561c9e25.png)
 
 - Single Device: Individual devices can be added one at a time by entering the Azure Active Directory device Id and selecting Add.
 
