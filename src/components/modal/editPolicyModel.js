@@ -85,6 +85,7 @@ const EditPolicyModal = (props) => {
   }
 
   async function removeBatchDeviceFromAudience() {
+    // Adding or removing up to 200 devices at a time with batch is an illustration of how to utilize the API and not a limitation.
     await updateDeploymentAudience(batchMembersRemove, audienceId);
   }
 
@@ -180,6 +181,7 @@ const EditPolicyModal = (props) => {
             <Form
               onSubmit={(e) => {
                 e.preventDefault();
+                // Adding or removing up to 200 devices at a time with batch is an illustration of how to utilize the API and not a limitation.
                 onSubmit(policyName, policyType);
               }}
             >
