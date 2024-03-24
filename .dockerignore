@@ -1,0 +1,8 @@
+.git
+*.md
+azure-pipelines.yml
+Dockerfile
+.gitignore
+.dockerignore
+dist/
+node_modules/
